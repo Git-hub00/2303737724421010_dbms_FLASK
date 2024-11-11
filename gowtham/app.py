@@ -72,6 +72,7 @@ def delete_patient(id):
     flash('Patient record deleted successfully.', 'success')
     return redirect(url_for('dashboard'))
 
+ print('im gowtham')
 if __name__ == '__main__':
     app.run(debug=True)
     
